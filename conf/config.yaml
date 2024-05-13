@@ -1,0 +1,29 @@
+name: "dijiexia"
+mode: "dev"
+port: 8000
+version: "v0.0.1"
+start_time: "2024-05-01"
+machine_id: 1
+
+log:
+  level: "debug"
+  filename: ""
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "8.136.112.63"
+  port: 3306
+  user: "earthWarrior"
+  password: "diJieXia123"
+  dbname: "earth_warrior"
+  max_open_conns: 200
+  max_idle_conns: 50
+
+redis:
+  host: "8.136.112.63"
+  port: 6379
+  password: "dijiexia333"
+  db: 0
+  pool_size:

@@ -1,4 +1,4 @@
-module Campusforum
+module gin-fast
 
 go 1.21
 
